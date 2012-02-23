@@ -9,14 +9,16 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Crowdsourcing
+title: Crowdsourcing
 tagline: La fuerza de la masa
-authors :
-  - name : Jorge Barata González
-    email : jorge.barata@alumnos.uc3m.es
-    github : jorgebg
-    twitter : neuralhacker
-  - name: Roberto Estrada Casarrubios
+authors:
+  jorge:
+    name: Jorge Barata González
+    email: jorge.barata@alumnos.uc3m.es
+    github: jorgebg
+    twitter: neuralhacker
+  roberto:
+    name: Roberto Estrada Casarrubios
     email: roberto.estrada@alumnos.uc3m.es
     github: RobertoEstrada
     twitter: TitoXamps

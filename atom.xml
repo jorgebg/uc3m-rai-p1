@@ -12,8 +12,8 @@ title : Atom Feed
  <id>{{ site.production_url }}</id>
 {% for author in site.authors %}
  <author>
-   <name>{{ author["name"] }}</name>
-   <email>{{ author["email"] }}</email>
+   <name>{{ author.last.name }}</name>
+   <email>{{ author.last.name }}</email>
  </author>
 {% endfor %}
 

@@ -4,7 +4,8 @@
     <meta charset="utf-8">
     <title>{{ page.title }}</title>
     {% if page.description %}<meta name="description" content="{{ page.description }}">{% endif %}
-    <meta name="author" content="co-authored by {% for author in site.authors %}{{ author["name"] }}{% case forloop.rindex %}{% when 2 %} and {% when 1 %}{% else %}, {% endcase %}{% endfor %}">
+    {% if page.keywords %}<meta name="keywords" content="{{ page.keywords }}">{% endif %}
+    <meta name="author" content="{% if site.authors|size > 1 %}co-authored by {% endif %}{{site.authors|enumerate:'name'}}">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
     <!--[if lt IE 9]>
@@ -46,7 +47,7 @@
       </div>
 
       <footer>
-        <p>&copy; {% for author in site.authors %}{{ author["name"] }}{% case forloop.rindex %}{% when 2 %} and {% when 1 %}{% else %}, {% endcase %}{% endfor %} 2012 
+        <p>&copy; {{site.authors|enumerate:'name'}} 2012 
           with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
           and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
         </p>
