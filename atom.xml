@@ -17,14 +17,18 @@ title : Atom Feed
  </author>
 {% endfor %}
 
- {% for post in site.posts %}
+ {% for page in site.pages %}
+ {% if page.group == 'navigation' %}
  <entry>
-   <title>{{ post.title }}</title>
-   <link href="{{ site.production_url }}{{ post.url }}"/>
-   <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>h{{ site.production_url }}{{ post.id }}</id>
-   <content type="html">{{ post.content | xml_escape }}</content>
+   <title>{{ page.title }}</title>
+   <link href="{{ site.production_url }}{{ page.url }}"/>
+   {% if page.date %}
+   <updated>{{ page.date | date_to_xmlschema }}</updated>
+   {% endif %}
+   <id>{{ page.title }}</id>
+   <content type="html">{{ page.content }}</content>
  </entry>
+ {% endif %}
  {% endfor %}
  
 </feed>
