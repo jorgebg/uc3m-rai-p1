@@ -4,7 +4,6 @@ title: ¿Qué es Crowdsourcing?
 description: "Información acerca del Crowdsourcing y el Crowdfunding y sus diferencias."
 keywords: "crowdsource, crowdsourcing, crowd sourcing, crowdsourced, crowdfunding, crowd funding, mechanical turk, subcontratación en masa, financiación en masa, masa social, financiación colectiva, turco mecánico"
 tagline: La nueva forma de trabajo en Internet
-rating: 4.5
 ---
 
 
@@ -56,13 +55,13 @@ los tres dólares y medio.
   {% endfor %}
 </ul>
 
-<div class="hreview-aggregate hide">
+<div class="hreview-aggregate">
    <span class="item">
      <span class="fn">{{ page.title }}</span>
    </span>
    <span class="rating">
-	Rating: <span class="average">{{ page.rating }}</span> out of <span class="best">5</span>
+	Puntuación: <span class="average">{{ page.rating }}</span> de <span class="best">5</span>
    </span>
-   based on <span class="votes">3</span> ratings. This page contains 
-<span class="count">2</span> user reviews of 2012-22.
+   basado en <span class="votes">3</span> votos. Ésta página contiene 
+<span class="count">2</span> puntuaciones del grupo 2012-22.
 </div>
