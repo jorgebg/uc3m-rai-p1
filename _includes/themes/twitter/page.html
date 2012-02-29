@@ -3,7 +3,22 @@
 </div>
 
 <div class="row">
-  <div class="span14">
+  <div class="span14 page-content">
+	<div class="hreview hide">
+		<span class="item">
+			<span class="fn">{{ page.title }}</span>
+		</span>
+		<span class="rating">{{ page.rating }}</span>
+		<span class="reviewer">{{ sites.authors[page.author] }}</span>
+		<abbr class="dtreviewed" title="20120229">February 29th 2012</abbr>
+		<span class="summary">{{ page.tagline }}</span>
+		<span class="description">{{ page.description }}</span>
+	</div>
     {{ content }}
+    {% if site.author %}
+  	<div>
+  		Autor: <a rel="author" href="https://profiles.google.com/{{ site.authors[page.author].google }}">{{ site.authors[page.author].name }}</a>
+  	</div>
+  	{% endif %}
   </div>
 </div>
