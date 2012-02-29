@@ -20,8 +20,8 @@ http://www.google.es/search?q=%22crowdsourcing+vs+crowdfunding%22
 http://crowdsourcingrai.com
 
 ## Subtemas
-http://crowdsourcingrai.com/ventajas.html
-http://crowdsourcingrai.com/colaboracion.html
+http://crowdsourcingrai.com/crowdsourcing-vs-crowdfunding.html
+http://crowdsourcingrai.com/crowdfunding.html
 
 # Agradecimientos
 Creado con http://jekyllbootstrap.com
