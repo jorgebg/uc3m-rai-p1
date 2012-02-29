@@ -60,8 +60,7 @@ los tres dólares y medio.
      <span class="fn">{{ page.title }}</span>
    </span>
    <span class="rating">
-	Puntuación: <span class="average">{{ page.rating }}</span> de <span class="best">5</span>
+	Puntuación: <span class="average">4.3</span> de <span class="best">5</span>
    </span>
-   basado en <span class="votes">3</span> votos. Ésta página contiene 
-<span class="count">2</span> puntuaciones del grupo 2012-22.
+   basado en <span class="votes">3</span> votos del grupo 2012-22.
 </div>
