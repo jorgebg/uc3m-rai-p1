@@ -13,6 +13,8 @@ Jorge Barata González
 
 "crowdsourcing vs crowdfunding"
 
+crowdsourcing vs crowdfunding
+
 ### Consultas
 http://www.google.es/search?q=%22crowdsourcing+vs+crowdfunding%22
 
