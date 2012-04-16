@@ -15,6 +15,7 @@ Jorge Barata González
 
 ### Consultas
 http://www.google.es/search?q=%22crowdsourcing+vs+crowdfunding%22
+
 http://www.google.es/search?q=crowdsourcing+vs+crowdfunding
   
 # Urls
